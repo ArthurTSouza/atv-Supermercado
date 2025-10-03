@@ -40,7 +40,6 @@ public class Supermercado {
             entrada.nextLine();
 
             System.out.println("Digite o codigo deste produto: ");
-            // CORREÇÃO: Usa nextLine()
             String cod = entrada.nextLine();
             listaProdutos[i].setCod(cod);
         }
