@@ -9,36 +9,41 @@ package com.fatec.supermercado;
  * @author fatec-dsm2
  */
 public class Produto {
+
     private String nome;
     private double preco;
     private int qtdEstoque;
     private String Cod;
-    
-    public void setNome(String nome){
+
+    public void setNome(String nome) {
         this.nome = nome;
     }
-    public String getNome(){
+
+    public String getNome() {
         return nome;
     }
-    
-    public void setPreco(double preco){
+
+    public void setPreco(double preco) {
         this.preco = preco;
     }
-    public double getPreco(){
+
+    public double getPreco() {
         return preco;
     }
-    
-    public void setQtdEstoque(int qtdEstoque){
+
+    public void setQtdEstoque(int qtdEstoque) {
         this.qtdEstoque = qtdEstoque;
     }
-    public int getQtdEstoque(){
+
+    public int getQtdEstoque() {
         return qtdEstoque;
     }
-    
-    public void setCod(String Cod){
+
+    public void setCod(String Cod) {
         this.Cod = Cod;
     }
-    public String getCod(){
+
+    public String getCod() {
         return Cod;
     }
 }
